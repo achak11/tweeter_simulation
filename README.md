@@ -1,7 +1,7 @@
 # Tweeter Simulation (Distributed System)
 
 This project implements a **Twitter-like engine and simulator** in Erlang.  
-It models users, tweets, hashtags, mentions, subscriptions, live updates, and re-tweets — all running on lightweight Erlang processes.  
+It models users, tweets, hashtags, mentions, subscriptions, live updates, and re-tweets, all running on lightweight Erlang processes.  
 
 The simulator spawns a configurable number of users, assigns them followers with a Zipf distribution, and generates random actions (tweets, queries, connects/disconnects, re-tweets) until a request limit is reached.
 
