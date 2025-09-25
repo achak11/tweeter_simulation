@@ -85,10 +85,9 @@ Noticeable increase in latency. Improvement idea: delegate responses to a separa
 
 ### Example output
 
-[Server] Starting
-[user1] Successfully registered...
-[Simulator1] Invoking send_tweet on user17.
-[user17] Tweet "Lorem Ipsum ... #CR7 @user3" invoked.
-[user3] [Live Update] New mention from user17 on tweet "Lorem Ipsum ... #CR7 @user3"
-...
-[Simulator1] Average Tweet time: 12.35 microseconds, Total Tweet Requests: 231
+- [Server] Starting
+- [user1] Successfully registered...
+- [Simulator1] Invoking send_tweet on user17.
+- [user17] Tweet "Lorem Ipsum ... #CR7 @user3" invoked.
+- [user3] [Live Update] New mention from user17 on tweet "Lorem Ipsum ... #CR7 @user3"
+- [Simulator1] Average Tweet time: 12.35 microseconds, Total Tweet Requests: 231
